@@ -2,7 +2,7 @@ import { Component, Input, OnInit, OnChanges } from '@angular/core';
 
 @Component({
   selector: 'hello',
-  template: `<h1>Hello {{name}}! with array {{data[0]}}</h1>`,
+  template: `<h1>Hello {{name}}! test {{data[0]}} and {{array[0].name}}</h1>`,
   styles: [`h1 { font-family: Lato; }`]
 })
 export class HelloComponent implements OnInit  {
