@@ -2,8 +2,8 @@ import { Component, Input, OnInit, OnChanges } from '@angular/core';
 
 @Component({
   selector: 'hello',
-  template: `Hello {{name}}! test {{data[0]}} and {{array[0].name}}`,
-  styles: ['h1 { font-family: Lato; }']
+  templateUrl: `./hello.component.html`,
+  styleUrls: ['./hello.component.css']
 })
 export class HelloComponent implements OnInit  {
   public array;
